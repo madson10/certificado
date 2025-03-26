@@ -6,13 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>Meu Certificado</title>
-  <style>
 
-  </style>
+
 </head>
 
 <body>
-  <img src="./img/Networking_Basics_certificate_madsonsdj-hotmail-com_4b8833d0-a77f-40fa-a3a6-743e2f2dfbae_page-0001.jpg" alt="Meu Certificado">
+  <div class="carousel">
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <div class="slides">
+      <img src="./img/Networking_Basics_certificate_madsonsdj-hotmail-com_4b8833d0-a77f-40fa-a3a6-743e2f2dfbae_page-0001.jpg" alt="Certificado 1">
+      <img src="./img/Introduction_to_Cybersecurity_certificate_madsonsdj-hotmail-com_ad97be3a-b708-4378-a28d-18f6e587586b_page-0001.jpg" alt="Certificado 2">
+    </div>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+
+  <script src="./js/script.js"></script>
 </body>
+
 
 </html>
